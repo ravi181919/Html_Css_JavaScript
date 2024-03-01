@@ -1,0 +1,37 @@
+*
+{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+html,
+body{
+    height: 100%;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+#cards
+{
+    position: relative;
+    height: 40vh;
+    width: 40%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background: #000;
+}
+.yes, .no
+{
+    margin-right: 100px;
+    padding: 0.5vw 1vw;
+    background: #fff;
+    color: #000;
+    font-family: 'Poppins';
+}
+.no
+{
+    position: absolute;
+    left: 60%;
+}
